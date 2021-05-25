@@ -1,4 +1,5 @@
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -47,6 +48,7 @@ class corona {
 			for(i=0;i<n;i++) {
 				System.out.println("Enter the Sample report of person "+(i+1));
 				str2=in.readLine();
+				str2=str2.toLowerCase();//Convert String in lower case
 				arr[i]=str2;
 			}
 			for( i=0;i<arr.length;i++) {
