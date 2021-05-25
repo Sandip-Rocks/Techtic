@@ -1,13 +1,13 @@
 const prompt = require("prompt-sync")(); //Run npm install prompt-sync in the terminal
 
-const str1 = prompt("Enter the virus name ");
+let str1 = prompt("Enter the virus name ");
 str1=str1.toLowerCase(); //convert the sample virus into Lowercase
 console.log(`The name of the virus is ${str1}`);
 
-const n = prompt("Enter number of people between 1 to 10");// input no of people
+const n = prompt("Enter number of people between 1 to 10 ");// input no of people
 console.log(`The number of people is ${n}`);
 
-const arr = [];
+let arr = [];
 for (let i = 0; i < n; i++) {
   arr[i] = prompt("Enter the Sample report of person " + (i + 1)+" ");
   arr[i]=arr[i].toLowerCase(); //convert string to lower case
