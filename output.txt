@@ -1,0 +1,18 @@
+Enter Virus Name
+coronavirus
+The name of the Virus is coronavirus
+Enter number of people
+4
+The total no of people is 4
+Enter the Sample report of person 1
+abcde
+Enter the Sample report of person 2
+crnas
+Enter the Sample report of person 3
+onerous
+Enter the Sample report of person 4
+viruscorona
+NEGATIVE
+POSITIVE
+NEGATIVE
+NEGATIVE
