@@ -1,5 +1,6 @@
 
 
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -36,15 +37,6 @@ class corona {
 		String str2;
 		n=Integer.parseInt(in.readLine()); //input no of people
 		String arr[]=new String[n]; //Declare String of array with size= no of people
-		while(true) { //Infinite loop
-			if(n>=1 && n<=10) { //condition to validate the whenther n is between 1 to 10
-				System.out.println("The total no of people is "+n);
-				
-			}
-			else {
-				System.out.println("Enter number between 1 to 10");
-				n=Integer.parseInt(in.readLine());
-			}
 			for(i=0;i<n;i++) {
 				System.out.println("Enter the Sample report of person "+(i+1));
 				str2=in.readLine();
@@ -62,9 +54,7 @@ class corona {
 			else
 				System.out.println("NEGATIVE");
 			}
-			break;
 
 		}
 		
 	}
-}
